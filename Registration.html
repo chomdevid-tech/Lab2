@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css"/>
+</head>
+
+<body>
+<div class="registration">
+    <h1>Registration Form</h1>
+    <hr>
+
+    <p class="subtitle">
+        The form is designed to be simple, clear, and easy to use, with sections clearly separated for personal information, contact details, and other account-related data. It ensures accurate data collection for account setup, helps the bank verify customer information, and provides a smooth onboarding experience for new clients.
+    </p>
+
+    <div class="grid-2">
+        <div class="form">
+            <label class="text">Name:</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+   <div class="form">
+    <label class="text">Gender:</label>
+    <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </div>
+</div>
+
+        <div class="form">
+            <label class="text">Date of Birth:</label>
+            <input type="date">
+        </div>
+
+        <div class="form">
+            <label class="text">Address:</label>
+            <input type="text" placeholder="Enter your address">
+        </div>
+
+        <div class="form">
+            <label class="text">City:</label>
+            <select>
+                <option>Phnom Penh</option>
+                <option>Battambang</option>
+                <option>Siem Reap</option>
+                <option value="KP">Kampong Cham</option>
+                <option value="KCG">Kampong Chhnang</option>
+                <option value="KSP">Kampong Speu</option>
+                <option value="KT">Kampong Thom</option>
+                <option value="KPCH">Kampot</option>
+                <option value="KN">Kandal</option>
+                <option value="KK">Koh Kong</option>
+                <option value="MK">Mondulkiri</option>
+                <option value="OK">Oddar Meanchey</option>
+                <option value="PL">Pailin</option>
+                <option value="PR">Preah Vihear</option>
+                <option value="PV">Prey Veng</option>
+                <option value="PS">Pursat</option>
+                <option value="RK">Ratanakiri</option>
+                <option value="SR">Siem Reap</option>
+                <option value="SHV">Preah Sihanouk</option>
+                <option value="ST">Stung Treng</option>
+                <option value="SV">Svay Rieng</option>
+                <option value="TK">Takeo</option>
+                <option value="TBK">Tboung Khmum</option>
+                <option value="KEP">Kep</option>
+            </select>
+        </div>
+
+        <div class="form">
+            <label class="text">Phone Number:</label>
+            <input type="text" placeholder="Phone Number">
+        </div>
+    </div>
+
+    <div class="contact">CONTACT DETAILS</div>
+
+    <div class="grid-2">
+        <div class="form"><label class="text">E-mail:</label><input type="email" placeholder="Enter your Email"></div>
+        <div class="form"><label class="text">Business Name:</label><input type="text" placeholder="Enter your Business Name"></div>
+        <div class="form"><label class="text">Father's Name:</label><input type="text" placeholder="Enter your Father's Name"></div>
+        <div class="form"><label class="text">Mother's Name:</label><input type="text" placeholder="Enter your Mother's Name"></div>
+    </div>
+
+    <div class="other">OTHER INFORMATION</div>
+
+    <div class="grid-3">
+        <div class="form"><label class="text">Start Date</label><input type="date"></div>
+        <div class="form"><label class="text">End Date</label><input type="date"></div>
+        <div class="form"><label class="text">Time</label><input type="time"></div>
+        <div class="form"><label class="text">Annual Payment</label><input type="text" placeholder="$"></div>
+        <div class="form"><label class="text">Total Annual Payment</label><input type="text" placeholder="$"></div>
+    </div>
+</div>
+</body>
+</html>
